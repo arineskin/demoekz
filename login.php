@@ -55,9 +55,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <button type="submit" class="bt">Войти</button>
             </form>
             <p>Нет аккаунта? <a href="register.php">Зарегистрироваться</a></p>
-            <div class="slider-container">
-                <img id="slider-img" src="images/1.jpg" alt="Слайд">
-            </div>
         </div>
     </main>
 
