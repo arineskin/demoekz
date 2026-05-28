@@ -29,6 +29,12 @@ $applications = $stmt->fetchAll();
     </header>
 
     <main>
+        <div class="slider">
+    <img id="slide" src="images/1.jpg">
+    <br>
+    <button id="prev">◀ Назад</button>
+    <button id="next">Вперед ▶</button>
+</div>
         <?php foreach ($applications as $app): ?>
             <div class="card">
                 <p><strong>Курс:</strong> <?= $app['course_name'] ?></p>
